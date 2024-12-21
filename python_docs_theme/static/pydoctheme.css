@@ -149,11 +149,7 @@ div.sphinxsidebar {
     border-radius: 5px;
     line-height: 130%;
     font-size: smaller;
-    width: 217px;
-    min-width: 200px;
-    max-width: 500px;
     resize: horizontal;
-    overflow: auto;
 }
 
 div.sphinxsidebar h3,

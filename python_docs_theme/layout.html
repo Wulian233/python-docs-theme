@@ -170,3 +170,9 @@
     {% trans sphinx_version=sphinx_version|e %}Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
     </div>
 {% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    {{ super() }}
+</div>
+{% endblock %}
